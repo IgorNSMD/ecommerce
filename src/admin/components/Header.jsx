@@ -13,7 +13,8 @@ export default function Header({ cart, removeFromCart, increaseQty, decreaseQty,
                 <div className="row justify-content-center justify-content-md-between">
                     <div className="col-8 col-md-3">
                         <a href="index.html">
-                            <img className="img-fluid" src="/img/logo.svg" alt="imagen logo" />
+                            {/* <img className="img-fluid" src="/img/logo.svg" alt="imagen logo" /> */}
+                            <img className="img-fluid" src="/img/LogoISM.png" alt="imagen logo" /> 
                         </a>
                     </div>
                     <nav className="col-md-6 a mt-5 d-flex align-items-start justify-content-end">
